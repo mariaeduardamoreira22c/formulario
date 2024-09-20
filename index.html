@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Preencha o formulário</h1>
+    <p>Atividades extra curriculares</p>
+</header>
+<body>
+
+    <form action="">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" id="name" required>
+        </div>
+
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date" placeholder="Digite sua data de nascimento" id="data" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="seuemail@exemplo.com.br" id="email" required>
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="1,2,3,4..." id="senha" required>
+        </div>
+
+        <div>
+            <p class="gene">Gênero:</p>
+            <div>
+                <input type="radio" id="masculino" name="genero" required>
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" id="feminino" name="genero" required>
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" id="outros" name="genero" required>
+                <label for="outro">Outros</label>
+            </div>
+        </div>
+
+        <div class="hora">
+            <p>Horário que deseja:</p>
+            <div>
+                <input type="radio" id="hora" name="horario" required>
+                <label for="hora">8:30 am</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="hora" name="horario" required>
+                <label for="hora">10:30 am</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="hora" name="horario" required>
+                <label for="hora">12:00 pm</label>
+            </div>
+        </div>
+
+        <div>
+            <p>Em quantas atividades se intessou?</p>
+            <div>
+                <input type="radio" id="quantidade" name="quantidades" required>
+                <label for="quantidade">1 atividade</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="quantidade" name="quantidades" required>
+                <label for="quantidade">2 atividades</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="quantidade" name="quantidades" required>
+                <label for="quantidade">3 atividades ou mais</label>
+            </div>
+
+        </div>
+
+        <div>
+            <p>Atividades que deseja fazer:</p>
+            <div>
+                <input type="checkbox" id="jiu-jítsu" required>
+                <label for="jiu-jítsu">Jiu-jítsu</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="judô" required>
+                <label for="judô">Judô</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="muay" required>
+                <label for="muay">Muay-thay</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="volei" required>
+                <label for="volei">Volêi</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="futebol" required>
+                <label for="futebol">Futebol</label>
+            </div>
+        </div>
+
+        <button>Enviar formulário</button>
+
+    </form>
+</body>
+</html>
